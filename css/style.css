@@ -116,6 +116,7 @@ body{
      height: 100%;
      width: 20%;
      text-align: center;
+     padding: 20px;
  }
   ul ul{
     position: absolute;
@@ -234,7 +235,7 @@ article{
     width: 100%;
     height: 100%;
     }
-
+    
 
 @media screen and (max-width: 320px){
 
@@ -339,8 +340,9 @@ article{
 }
 }
    /* Estilos para pagina error 404*/
-body { 
-     background-image: url(./fondo.jpg);}
+body{
+    background-image: url(./fondo.jpg);
+}
 .error-template {
     padding: 40px 15px;
     text-align: center;
