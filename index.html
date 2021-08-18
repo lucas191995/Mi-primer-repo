@@ -19,14 +19,10 @@
 
 <body>
     
-<header class="header">
-            <!--Acá va un logo-->
-            <div class="centrado">
-                <img src="./imagenes/robot.png"  width="100px" height="100px"/>
-                </div>
-        
+<header class="header_logo" >
+            
 
-        <h1 >Lacade Tech</h1>
+        <h1 class="header_h1" >Lacade <img src="./imagenes/robot.png"  width="100px" height="100px" > Tech</h1>
 
         <nav>
 
@@ -86,25 +82,21 @@
 
     <!--Noticias idea centro de pagina-->
 
-<article  > 
+    <div>
+      <h2 class="h2_noticias"> Noticias </h2>
+    </div>
+ 
+<article class= "article_noticia"  > 
 
-
-  
-
-  
-
-   <div>
-     <h2> <strong> Noticias</strong> </h2>
-   </div>
 
    <div class="container">
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12">
    
-        <div class="video-responsive"  ><iframe   src="https://www.youtube.com/embed/vJdYh4lawEE" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe> </div>
+        <div class="video-responsive"  ><iframe   src="https://www.youtube.com/embed/vJdYh4lawEE" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  class="video-noticia" allowfullscreen ></iframe> </div>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12">
-        <div class="video-responsive "  > <iframe   src="https://www.youtube.com/embed/GqIkv4hlLZ8" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+        <div class="video-responsive "  > <iframe   src="https://www.youtube.com/embed/GqIkv4hlLZ8" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video-noticia" allowfullscreen></iframe> </div>
       </div>
       
       </div>
@@ -114,12 +106,12 @@
     <div class="row">
       <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12">
         
-        <div class="video-responsive " ><iframe src="https://www.youtube.com/embed/CxcjoG_86Mk" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+        <div class="video-responsive " ><iframe src="https://www.youtube.com/embed/CxcjoG_86Mk" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video-noticia" allowfullscreen></iframe> </div>
    
       </div>
       <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10 col-12">
         
-        <div  class="video-responsive "><iframe  src="https://www.youtube.com/embed/AK1KQhDLBWY" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
+        <div  class="video-responsive "><iframe  src="https://www.youtube.com/embed/AK1KQhDLBWY" title="YouTube video player" frameborder="2px" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="video-noticia" allowfullscreen></iframe> </div>
    
       </div>
       
@@ -157,10 +149,10 @@
 <div class="container" >
 <div id="carouselExampleInterval"  class="carousel slide" data-bs-ride="carousel"  class="carouselTamaño">
   <div class="carousel-inner" id="carousel-tamaño" >
-    <div class="carousel-item active" data-bs-interval="5000">
+    <div class="carousel-item active" data-bs-interval="800">
       <img src="./imagenes/hard/asrock.png" class="d-block w-100" alt="...">
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
+    <div class="carousel-item" data-bs-interval="800">
       <img src="./imagenes/hard/1200px-Cooler_Master_black_logo.svg.png" class="d-block w-100" alt="..." >
     </div>
     
@@ -200,15 +192,18 @@
 <footer>
    
 
-    <h3>Redes</h3>
+    <h3 class="texto-redes">Redes</h3>
     <!--Logos con link directo a paginas oficiales del sitio-->
   
-  <div>
-    <a href="http://instagram.com"><img style="margin:5px" src="./imagenes/instagram.png" width="30" height="30" alt="Instagram">
-    </a><a href="http://facebook.com"><img style="margin:5px" src="./imagenes/facebook.png" width="30" height="30" alt="Facebook"></a>
-    <a href="http://youtube.com" ><img style="margin:5px" src="./imagenes/youtube.png" width="30" height="30" alt="YouTube"></a>
-</div>
+  <div >
+    <a href="http://instagram.com"><img  src="./imagenes/instagram.png"  alt="Instagram" class="logos-redes" ></a>
+    <a href="http://facebook.com"><img  src="./imagenes/facebook.png"  alt="Facebook" class="logos-redes" ></a>
+    <a href="http://youtube.com" ><img src="./imagenes/youtube.png"  alt="YouTube"  class="logos-redes"></a>
+  </div>
+
+  <p class="derechos"> <strong> 2021 derechos reservados</strong></p>
  
+
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
