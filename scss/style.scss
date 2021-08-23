@@ -2,6 +2,7 @@ $fondoHaF: url(./10-108170_geometric-blue-yellow-4k-ultra-hd-mobile-wallpaper.jp
 $colorfont: black;
 
 /**Aca comienza estilos del header**/
+
 .header_logo{
     
     background-image: $fondoHaF;
@@ -22,6 +23,8 @@ $colorfont: black;
     margin: auto;
 }
 .menuPrincipal{
+    
+    
 
     li{
         display: inline-block;
@@ -40,6 +43,11 @@ $colorfont: black;
              }
              }
 } 
+.menuPrincipal img{
+        height: 30px;
+        width: 30px;
+}
+
 ul ul{
     position: absolute;
     display: none;
@@ -63,7 +71,7 @@ ul ul{
 /**Aca comienza estilos de seccion noticias**/
 
 body{
-    background-color: whitesmoke;
+    background-color: whitesmoke solid;
 } 
 
 .h2_noticias{
@@ -124,21 +132,67 @@ body{
 footer{
     background-image: $fondoHaF;
     text-align: center;
-    height: 200px;
-    width: 100%;
+    height: 150px;
+    width: 90%;
+    margin: auto;
 }
         .texto-redes{
             font-style: italic;
-            font-size: 45px;
+            font-size: 40px;
         }
         
             .logos-redes{
                 padding: 5px;
-                height: 60px;
-                width: 60px;
+                height: 40px;
+                width: 40px;
             }
  
-  /**Aca termina estilos de footer **/          
+  /**Aca termina estilos de footer **/  
+  
+  /** COMIENZA ESTILOS Seccion CELULARES/Computacion**/ 
+
+  .productos img{
+      width: 120px;
+  }
+  .padding{
+      padding: 5px;
+  }
+  .productos h3{
+    font-size: large;  
+    margin-top: 5px;
+  }
+  .tarjeta{
+      border-radius: 8px;
+      background-color: white;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      width: 205px;
+      height: 240px;
+      margin: auto; 
+  }
+
+  /** Termina ESTILOS Seccion CELULARES/computacion**/
+
+ /**Aca Comienzan estilos de Sobre nosotros **/
+
+.sobreNosotros{
+    display: grid;
+    text-align:center;
+    color: black;
+    border: 5px solid black;
+    margin: auto;
+    overflow: auto;
+
+        .imgrobot{
+            height: 300px;
+            width: 300px;
+        }
+}
+.sobreNosotros img{
+    height: 30px;
+    width: 30px;
+}
+
+
 
 
 
