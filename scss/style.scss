@@ -15,6 +15,10 @@ $colorfont: black;
     font-size: 48px;
     font-style: italic;
 }
+.header_h1 img{
+    width: 100px;
+    height: 100px;
+}
 .menuPrincipal {
     list-style: none;
     padding: 0%;
@@ -186,6 +190,7 @@ footer{
 
  /**Aca Comienzan estilos de Sobre nosotros **/
 
+
 .sobreNosotros{
     display: grid;
     text-align:center;
@@ -193,6 +198,7 @@ footer{
     border: 5px solid black;
     margin: auto;
     overflow: auto;
+    width: 50%;
 
         .imgrobot{
             height: 300px;

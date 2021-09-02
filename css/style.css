@@ -8,6 +8,10 @@
   font-size: 48px;
   font-style: italic; }
 
+.header_h1 img {
+  width: 100px;
+  height: 100px; }
+
 .menuPrincipal {
   list-style: none;
   padding: 0%;
@@ -150,7 +154,8 @@ footer {
   color: black;
   border: 5px solid black;
   margin: auto;
-  overflow: auto; }
+  overflow: auto;
+  width: 50%; }
   .sobreNosotros .imgrobot {
     height: 300px;
     width: 300px; }
